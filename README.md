@@ -1,6 +1,6 @@
 1.Clone Repository
 
-2.create ‘Models’ folder, new item in that folder, create variables based on task
+2.create ‘Models’ folder, new item in that folder, create variables based on task (name of my item is FirstModel)
 
 3.Install Microsoft.EntityFramewrkcore.Tools version 6.0.25 from NugetPackageManager 
 
