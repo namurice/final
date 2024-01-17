@@ -1,9 +1,11 @@
+using FinalsProject.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace FinalsProject;
 
 public class ApplicationDbContext : DbContext
 {
+    public DbSet<FirstModel> FirstModels { get; set; }
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
     {
     }
