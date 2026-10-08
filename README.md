@@ -1,3 +1,18 @@
+# EF Core Web API: Step-by-step Guide (final exam)
+
+My study guide and example code for the final exam of the .NET course at Caucasus University (2024). It covers how to build an ASP.NET Core Web API with Entity Framework Core from scratch:
+
+- Creating models and owned types (`FirstModel`, `Phone`, `EmailAddress`)
+- Setting up `ApplicationDbContext` and migrations
+- Scaffolding API controllers with EF Core
+- Adding custom endpoints (e.g. search by name) and testing them in Swagger
+
+**Tech:** C# · ASP.NET Core Web API · Entity Framework Core · SQLite · Swagger
+
+---
+
+## Guide
+
 1.Clone Repository
 
 2.create ‘Models’ folder, new item in that folder, create variables based on task (name of my item is FirstModel)
